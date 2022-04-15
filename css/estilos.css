@@ -11,6 +11,11 @@ a{
 	display: inline-block;
 }
 
+nav{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
 section .img-banner{
 	display: block;
 	width: 100%;
@@ -174,9 +179,9 @@ h2{
 
 
 .cabecera .menu a{
-	margin-left: 13px;
-	margin-right: 13px;
-	word-spacing: 5px;
+	margin-left: 20px;
+	margin-right: 20px;
+	word-spacing: 0px;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	color: #fff;
