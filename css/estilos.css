@@ -48,6 +48,10 @@ section#about{
 	background: linear-gradient(to bottom,rgb(68, 0, 141) , rgb(48, 0, 121));
 }
 
+section#team{
+	background: linear-gradient(to bottom,rgb(48, 0, 121) , rgb(28,0,101));
+}
+
 h2{
 	font-size: 25px;
 	text-transform: uppercase;
@@ -95,8 +99,47 @@ h2{
 
 #roadmap p{
 	color: #fff;
-	font-size: 16px;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 1.5;
 }
+
+#roadmap .imagen-roadmap{
+	display: flex;
+	height: 100%;
+	width: 100px;
+	background: #3b38b3;
+	margin-left: 10px;
+	
+}
+
+#roadmap .imagen-roadmap img{
+	height: 100px;
+	width: 100px;
+	vertical-align: middle;
+}
+
+#roadmap .roadmap-intro{
+	display: flex;
+	align-items: center;
+
+}
+
+#roadmap .titulo-roadmap{
+	padding: 2em;
+	width: 400px;
+	height: 100%;
+	background: #3b38b3;
+	
+}
+
+#roadmap .descripcion{
+	width: 100%;
+	height: 100%;
+	margin-left: 50px;
+
+}
+
 
 .container{
 	margin: 0 auto;
@@ -128,6 +171,15 @@ h2{
 	padding-right: 15px;
 	padding-top: 15px;
 	padding-bottom: 15px;
+
+}
+
+.columna-14{
+	width: 14.28%;
+}
+
+.columna-25{
+	width: 25%;
 }
 
 .columna-33{
@@ -136,6 +188,10 @@ h2{
 
 .columna-50{
 	width: 50%;
+}
+
+.columna-75{
+	width: 75%;
 }
 
 .columna-100{
@@ -171,6 +227,7 @@ h2{
 	justify-content: center;
 	width: 550px;
 	border-radius: 50px;
+
 }
 
 .fila{
@@ -345,7 +402,7 @@ h2{
 	position: absolute;
 	left: 0;
 	right: 0;
-	top: 7.7%;
+	top: 7%;
 
 }
 
@@ -353,14 +410,14 @@ h2{
 	position: absolute;
 	left: 0;
 	right: 0;
-	top: 31%;
+	top: 12.5%;
 }
 
 .texto-absoluto3{
 	position: absolute;
 	left: 0;
 	right: 0;
-	top: 8.5%;
+	top: 8%;
 }
 
 .texto-absoluto4{
@@ -374,7 +431,14 @@ h2{
 	position: absolute;
 	left: 0;
 	right: 0;
-	top: 12.3%;
+	top: 4.8%;
+}
+
+.texto-absoluto6{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 42%;
 }
 
 .caja-about{
@@ -397,4 +461,20 @@ h2{
 	color: #fff;
 	font-size: 15px;
 	line-height: 1.5;
+}
+
+.margin-top{
+	margin-top: 20px;
+}
+
+.caja-roadmap{
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(148, 0, 221);
+    box-shadow: 0px 0px 15px 0px rgb(148 0 221);
+
+}
+
+.violeta{
+	background: #6072ff;
 }
