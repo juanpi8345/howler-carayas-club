@@ -3,8 +3,10 @@
     font-family: 'MinecraftiaRegular';
     font-weight: normal;
     font-style: normal;
-
+    
 }
+
+
 
 a{
 	text-decoration: none;
@@ -102,13 +104,15 @@ h2{
 	font-weight: bold;
 	font-size: 18px;
 	line-height: 1.5;
+	text-align: center;
+	padding: 0 20px;
 }
 
 #roadmap .imagen-roadmap{
 	display: flex;
 	height: 100%;
 	width: 100px;
-	background: #3b38b3;
+	background: rgb(88, 0, 161);
 	margin-left: 10px;
 	
 }
@@ -127,17 +131,19 @@ h2{
 
 #roadmap .titulo-roadmap{
 	padding: 2em;
-	width: 400px;
+	width: 450px;
 	height: 100%;
-	background: #3b38b3;
-	
+	background: rgb(88, 0, 161);	
 }
 
 #roadmap .descripcion{
 	width: 100%;
 	height: 100%;
 	margin-left: 50px;
+}
 
+#roadmap h3{
+	text-transform: uppercase;
 }
 
 
@@ -410,7 +416,7 @@ h2{
 	position: absolute;
 	left: 0;
 	right: 0;
-	top: 12.5%;
+	top: 7.5%;
 }
 
 .texto-absoluto3{
@@ -471,10 +477,10 @@ h2{
     width: 100%;
     height: 100%;
     border: 1px solid rgb(148, 0, 221);
-    box-shadow: 0px 0px 15px 0px rgb(148 0 221);
+  
 
 }
 
 .violeta{
-	background: #6072ff;
+	background-color: rgb(148, 0, 221);
 }
