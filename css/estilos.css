@@ -1,4 +1,8 @@
- font-style: normal;
+ *{
+    box-sizing: border-box;
+    font-family: 'MinecraftiaRegular';
+    font-weight: normal;
+    font-style: normal;
     
 }
 
