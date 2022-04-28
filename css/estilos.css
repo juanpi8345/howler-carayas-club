@@ -48,11 +48,23 @@ section#servicios{
 }
 
 section#about{
-	background: linear-gradient(to bottom,rgb(68, 0, 141) , rgb(48, 0, 121));
+	background: linear-gradient(to bottom,rgb(68, 0, 141) , rgb(48, 0, 111));
 }
 
 section#team{
-	background: linear-gradient(to bottom,rgb(48, 0, 121) , rgb(28,0,101));
+	background: linear-gradient(to bottom,rgb(48, 0, 111) , rgb(28,0,71));
+}
+
+section#colaboradores{
+	background: linear-gradient(to bottom, rgb(28,0,71), rgb(8, 0, 41));
+}
+
+footer{
+	background: linear-gradient(to bottom, rgb(8, 0, 41), rgb(0, 0, 0));
+}
+
+h1{
+	font-size: 26px;
 }
 
 h2{
@@ -71,6 +83,8 @@ h2{
 	right: 0;
 
 }
+
+
 
 #introduccion .titulo{
 	font-weight: 600;
@@ -97,20 +111,20 @@ h2{
 #roadmap h3{
 	color: #fff;
 	font-weight: bold;
-	font-size: 13px;
+	font-size: 15px;
 	line-height: 1.5;
 }
 
 #roadmap p{
 	color: #fff;
 	font-weight: bold;
-	font-size: 12px;
+	font-size: 14px;
 	line-height: 1.5;
 	text-align: center;
-	padding: 0 20px;
 	align-self: center;
    margin-left: auto;
    margin-right: auto;
+   padding: 0 15px;
 }
 
 #roadmap .imagen-roadmap{
@@ -141,36 +155,67 @@ h2{
 	display: flex;
 	width: 450px;
 	height: 100%;
-	background: rgb(88, 0, 161);	
-	margin-right: 30px;
+	background: rgb(88, 0, 161);
+	padding-right: 10px;
 }
 
 #roadmap .descripcion{
 	width: 100%;
 	height: 100%;
-	margin-left: 50px;
 	display: flex;
 }
+
+
 
 #roadmap h3{
 	text-transform: uppercase;
 	align-self: center;
 	margin-left: auto;
 	margin-right: auto;
+	font-size: 14px;
 }
 
 #roadmap span{
 	color: rgb(96, 144, 255);
 }
 
-#about p{
-	font-size: 12px;
-}
-
-#about h3{
+#roadmap .descripcion p{
 	font-size: 13px;
 }
 
+#about p{
+	font-size: 13px;
+	line-height: 1.5;
+}
+
+#about h3{
+	font-size: 14px;
+}
+
+#team .circulo{
+	width: 150px;
+	height: 150px;
+	padding-bottom: 35px;
+	background-color: #000;
+	border: 5px solid #5800a1;
+	object-fit: contain;
+	transition-property: background;
+	transition-duration: .4s;
+}
+
+#team .circulo:hover{
+	background: rgb(88, 0, 161);
+}
+
+#team h4{
+	text-align: center;
+	color: #fff;
+	line-height: 1.5;
+}
+
+#team span{
+	color: #48e;
+}
 
 .container{
 	margin: 0 auto;
@@ -313,13 +358,14 @@ h2{
 
 .btn{
 	padding: 10px 30px;
-	font-size: 11px;
+	font-size: 14px;
 	border: 2px solid rgb(59,56,179);
 	border-radius: 30px;
+	box-shadow: 3px 10px 20px #000;
 }
 
 .boton-transparente{
-	background: transparent;
+	background: #48e;
 	color: rgb(59,56,179);
 	transition: background;
 	transition-duration: .3s;
@@ -336,7 +382,7 @@ h2{
 .parrafo{
 	line-height: 2;
 	color: #fff;
-	font-size: 13px;
+	font-size: 15px;
 }
 
 .caja-texto{
@@ -388,7 +434,7 @@ h2{
 .twitter img{
 	position: absolute;
 	top: -71%;
-	left: 82%;
+	left: 78%;
 	width: 60px;
 	height: 60px;
 }
@@ -424,7 +470,7 @@ h2{
 
 .parrafo-servicios{
 	color: #fff;
-	font-size: 13px;
+	font-size: 14px;
 	line-height: 1.5;
 	font-weight: bold;
   
@@ -440,7 +486,7 @@ h2{
 	position: absolute;
 	left: 0;
 	right: 0;
-	top: 9%;
+	top: 10%;
 
 }
 
@@ -448,28 +494,28 @@ h2{
 	position: absolute;
 	left: 0;
 	right: 0;
-	top: 6.4%;
+	top: 6.3%;
 }
 
 .texto-absoluto3{
 	position: absolute;
 	left: 0;
 	right: 0;
-	top: 9.3%;
+	top: 8.5%;
 }
 
 .texto-absoluto4{
 	position: absolute;
 	left: 0;
 	right: 0;
-	top: 17%;
+	top: 16.8%;
 }
 
 .texto-absoluto5{
 	position: absolute;
 	left: 0;
 	right: 0;
-	top: 5.2%;
+	top: 6.2%;
 }
 
 .texto-absoluto6{
@@ -478,6 +524,21 @@ h2{
 	right: 0;
 	top: 42%;
 }
+
+.texto-absoluto7{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 9.5%;
+}
+
+.texto-absoluto8{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 43%;
+}
+
 
 .caja-about{
 	display: flex;
@@ -497,7 +558,7 @@ h2{
 	background-color: rgb(148, 0, 221);
 	padding: 0 15px;
 	color: #fff;
-	font-size: 13px;
+	font-size: 15px;
 	line-height: 1.5;
 }
 
@@ -515,4 +576,18 @@ h2{
 
 .violeta{
 	background-color: rgb(148, 0, 221);
+}
+
+.caja-team{
+	padding: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+.img-team{
+	display: flex;
+	justify-content: center;
+
 }
