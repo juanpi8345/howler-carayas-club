@@ -65,6 +65,7 @@ footer{
 
 h1{
 	font-size: 26px;
+	color: #fff;
 }
 
 h2{
@@ -297,7 +298,8 @@ h2{
 }
 
 .columna-celeste{
-	background: rgba(96, 144, 255, 0.8);
+	background: rgba(0, 0, 0,.7);
+	border: 2px solid rgb(59,56,179);
 }
 
 .columna-flex{
@@ -307,6 +309,7 @@ h2{
 	justify-content: center;
 	width: 550px;
 	border-radius: 50px;
+	height: 400px;
 
 }
 
@@ -416,27 +419,27 @@ h2{
 	border-color: rgba(96, 144, 255, 0.9);
 }
 
-.discord{
-	position: relative;
+.redes-sociales{
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
 }
+
 
 .discord img{
-	position: absolute;
-	top: 18%;
-	left: 3%;
 	width: 60px;
 	height: 60px;
-}
-.twitter{
-	position: relative;
+	
+	
 }
 
+
 .twitter img{
-	position: absolute;
-	top: -71%;
-	left: 78%;
 	width: 60px;
 	height: 60px;
+	
+
+	
 }
 
 .roadmap-introduccion{
@@ -478,7 +481,7 @@ h2{
 
 .imagen-titulos{
 	width: 100%;
-	height: 150px;
+	height: 150px;o
 
 }
 
@@ -494,42 +497,42 @@ h2{
 	position: absolute;
 	left: 0;
 	right: 0;
-	top: 6.3%;
+	top: 6.2%;
 }
 
 .texto-absoluto3{
 	position: absolute;
 	left: 0;
 	right: 0;
-	top: 8.5%;
+	top: 8.2%;
 }
 
 .texto-absoluto4{
 	position: absolute;
 	left: 0;
 	right: 0;
-	top: 16.8%;
+	top: 17%;
 }
 
 .texto-absoluto5{
 	position: absolute;
 	left: 0;
 	right: 0;
-	top: 6.2%;
+	top: 5.3%;
 }
 
 .texto-absoluto6{
 	position: absolute;
 	left: 0;
 	right: 0;
-	top: 42%;
+	top: 44.2%;
 }
 
 .texto-absoluto7{
 	position: absolute;
 	left: 0;
 	right: 0;
-	top: 9.5%;
+	top: 10%;
 }
 
 .texto-absoluto8{
