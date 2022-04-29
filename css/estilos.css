@@ -1,10 +1,12 @@
- *{
+*{
     box-sizing: border-box;
     font-family: 'MinecraftiaRegular';
     font-weight: normal;
     font-style: normal;
     
 }
+
+
 
 a{
 	text-decoration: none;
@@ -30,27 +32,27 @@ section{
 }
 
 section#introduccion{
-	background: linear-gradient(to bottom, rgb(148, 0, 221), rgb(128, 0, 201));
+	background: linear-gradient(to bottom, rgb(148, 0, 221), rgb(108, 0, 191));
 }
 
 section#roadmap{
-	background: linear-gradient(to bottom, rgb(128, 0, 201) , rgb(108,0,181));
+	background: linear-gradient(to bottom, rgb(68, 0, 161) , rgb(48,0,131));
 }
 
 section#objetivos{
-	background: linear-gradient(to bottom,rgb(108,0,181) , rgb(88, 0, 161));
+	background: linear-gradient(to bottom,rgb(48,0,131) , rgb(08, 0, 81));
 }
 
 section#servicios{
-	background: linear-gradient(to bottom,rgb(88, 0, 161) , rgb(68, 0, 141));
+	background: linear-gradient(to bottom,rgb(08, 0, 81) , rgb(0, 0, 51));
 }
 
 section#about{
-	background: linear-gradient(to bottom,rgb(68, 0, 141) , rgb(48, 0, 111));
+	background: linear-gradient(to bottom,rgb(108, 0, 191) , rgb(68, 0, 161));
 }
 
 section#team{
-	background: linear-gradient(to bottom,rgb(48, 0, 111) , rgb(28,0,71));
+	background: linear-gradient(to bottom,rgb(0, 0, 51) , rgb(0,0,31));
 }
 
 section#colaboradores{
@@ -479,7 +481,7 @@ h2{
 
 .imagen-titulos{
 	width: 100%;
-	height: 150px;o
+	height: 135px;
 
 }
 
@@ -487,7 +489,7 @@ h2{
 	position: absolute;
 	left: 0;
 	right: 0;
-	top: 10%;
+	top: 9%;
 
 }
 
@@ -495,42 +497,36 @@ h2{
 	position: absolute;
 	left: 0;
 	right: 0;
-	top: 6.2%;
+	top: 5.5%;
 }
 
 .texto-absoluto3{
 	position: absolute;
 	left: 0;
 	right: 0;
-	top: 8.2%;
+	top: 7.5%;
 }
 
 .texto-absoluto4{
 	position: absolute;
 	left: 0;
 	right: 0;
-	top: 17%;
+	top: 16%;
 }
 
 .texto-absoluto5{
 	position: absolute;
 	left: 0;
 	right: 0;
-	top: 5.3%;
+	top: 4.9%;
 }
 
-.texto-absoluto6{
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 44.2%;
-}
 
 .texto-absoluto7{
 	position: absolute;
 	left: 0;
 	right: 0;
-	top: 10%;
+	top: 9%;
 }
 
 .texto-absoluto8{
