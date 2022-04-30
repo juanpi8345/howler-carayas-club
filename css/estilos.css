@@ -635,6 +635,9 @@ h3{
 	#banner{
 		height: 100vh;
 	}
+	#introduccion .parrafo{
+		font-size: 12px;
+	}
 
 	.container{
 		width: 100%;
