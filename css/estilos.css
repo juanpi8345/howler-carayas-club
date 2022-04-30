@@ -246,6 +246,7 @@ h3{
 	top: 0;
 	left: 0;
 	z-index: 99;
+
 }
 
 .columna{
@@ -631,9 +632,64 @@ h3{
 		visibility: hidden;
 	}
 
+	#banner{
+		height: 100vh;
+	}
+
 	.container{
 		width: 100%;
 	}
 
+
+	 .texto-absoluto{
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 4%;
+
+	}
+
+	.texto-absoluto2{
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 5.5%;
+	}
+
+	.texto-absoluto3{
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 7.5%;
+	}
+
+	.texto-absoluto4{
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 16%;
+	}
+
+	.texto-absoluto5{
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 4.9%;
+	}
+
+
+	.texto-absoluto7{
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 9%;
+	}
+
+	.texto-absoluto8{
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 43%;
+	}
 
 }
