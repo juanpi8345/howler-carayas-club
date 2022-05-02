@@ -194,6 +194,9 @@ h3{
 	font-size: 13px;
 	line-height: 1.5;
 }
+#about-mobile{
+	visibility: hidden;
+}
 
 #about h3{
 	font-size: 14px;
@@ -637,6 +640,18 @@ h3{
 		font-size: 20px;
 	}
 
+	h3{
+		font-size: 14px;
+	}
+
+	p{
+		font-size: 12px;
+	}
+
+	section#about-mobile{
+		background: linear-gradient(to bottom, rgb(108, 0, 191) , rgb(68, 0, 161));
+	}
+
 	#banner{
 		height: 100vh;
 	}
@@ -652,8 +667,8 @@ h3{
 	}
 
 	#banner .circulo{
-		width: 100px;
-		height: 100px;
+		width: 120px;
+		height: 120px;
 	}
 
 	#banner .columna-absoluta{
@@ -662,17 +677,26 @@ h3{
 	}
 
 	#banner .redes-sociales .discord img{
-		width: 45px;
-		height: 45px;
+		width: 40px;
+		height: 40px;
 	}
 
 	#banner .redes-sociales .twitter img{
-		width: 45px;
-		height: 45px;
+		width: 40px;
+		height: 40px;
 	}
 
 	#introduccion .parrafo{
 		font-size: 12px;
+	}
+	#about{
+		visibility: hidden;
+		display: none;
+	}
+
+	#about-mobile{
+		visibility: visible;
+		background: background: linear-gradient(to bottom,rgb(108, 0, 191) , rgb(68, 0, 161));
 	}
 
 
