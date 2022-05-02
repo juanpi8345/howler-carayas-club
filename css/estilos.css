@@ -698,6 +698,7 @@ h3{
 	#about-mobile{
 		visibility: visible;
 		background: background: linear-gradient(to bottom,rgb(108, 0, 191) , rgb(68, 0, 161));
+		display: block;
 	}
 
 
