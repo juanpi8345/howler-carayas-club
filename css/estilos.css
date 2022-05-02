@@ -196,6 +196,7 @@ h3{
 }
 #about-mobile{
 	visibility: hidden;
+	display: none;
 }
 
 #about h3{
