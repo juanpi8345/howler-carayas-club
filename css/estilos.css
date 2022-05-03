@@ -39,8 +39,13 @@ section#roadmap{
 	background: linear-gradient(to bottom, rgb(68, 0, 161) , rgb(48,0,131));
 }
 
+section#roadmap-mobile{
+	background: linear-gradient(to bottom, rgb(68, 0, 161) , rgb(48,0,131));
+}
+
 section#objetivos{
 	background: linear-gradient(to bottom,rgb(48,0,131) , rgb(08, 0, 85));
+
 }
 
 section#servicios{
@@ -49,6 +54,7 @@ section#servicios{
 
 section#about{
 	background: linear-gradient(to bottom,rgb(108, 0, 191) , rgb(68, 0, 161));
+	visibility: visible;
 }
 
 section#team{
@@ -143,6 +149,7 @@ h3{
 
 }
 
+
 #roadmap .imagen-roadmap img{
 	height: 80px;
 	width: 80px;
@@ -190,6 +197,10 @@ h3{
 	font-size: 13px;
 }
 
+#roadmap-mobile{
+	display: none;
+}
+
 #about p{
 	font-size: 13px;
 	line-height: 1.5;
@@ -197,6 +208,7 @@ h3{
 #about-mobile{
 	visibility: hidden;
 	display: none;
+
 }
 
 #about h3{
@@ -627,7 +639,7 @@ h3{
 	margin-left: -50px;
 }
 
-@media (max-width:  767px){
+@media (max-width:  1170px){
 
 	body{
 		font-size: 15px;
@@ -648,7 +660,7 @@ h3{
 	p{
 		font-size: 12px;
 	}
-	
+
 	header .menu{
 		display: none;
 	}
@@ -690,8 +702,7 @@ h3{
 		width: 40px;
 		height: 40px;
 	}
-	
-	
+
 	#banner .container{
 		top: 2%;
 	}
@@ -709,6 +720,52 @@ h3{
 		background: background: linear-gradient(to bottom,rgb(108, 0, 191) , rgb(68, 0, 161));
 		display: block;
 	}
+
+	#roadmap{
+		display: none;
+	}
+
+	#roadmap-mobile{
+		display: block;
+	}
+
+
+	#roadmap-mobile .imagen-roadmap{
+		display: flex;
+		height: 80px;
+		width: 80px;
+		background: rgb(88, 0, 161);
+		margin-left: 10px;
+		padding-top: 7px;
+
+	}
+
+	#roadmap-mobile .imagen-roadmap img{
+		height: 80px;
+		width: 80px;
+		align-self: center;
+		object-position: center;
+		margin-bottom: 40px;
+
+	}
+
+	#roadmap-mobile .titulo-about{
+		display: flex;
+      justify-content: center;
+	}
+
+	#roadmap-mobile .titulo-roadmap{
+		display: flex;
+      align-self: center;
+	}
+
+	#roadmap-mobile .parrafo-about{
+		text-align: center;
+	}
+
+   #roadmap-mobile span{
+	   color: rgb(96, 144, 255);
+   }
 
 
 	.container{
