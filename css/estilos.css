@@ -52,6 +52,10 @@ section#servicios{
 	background: linear-gradient(to bottom,rgb(08, 0, 85) , rgb(0, 0, 61));
 }
 
+section#servicios-mobile{
+	background: linear-gradient(to bottom,rgb(08, 0, 85) , rgb(0, 0, 61));
+}
+
 section#about{
 	background: linear-gradient(to bottom,rgb(108, 0, 191) , rgb(68, 0, 161));
 	visibility: visible;
@@ -213,6 +217,14 @@ h3{
 
 #about h3{
 	font-size: 14px;
+}
+
+#servicios{
+	display: block;
+}
+
+#servicios-mobile{
+	display: none;
 }
 
 #team .circulo{
@@ -653,8 +665,12 @@ h3{
 		font-size: 20px;
 	}
 
-	h3{
+	h2{
 		font-size: 14px;
+	}
+
+	h3{
+		font-size: 13px;
 	}
 
 	p{
@@ -767,6 +783,18 @@ h3{
 	   color: rgb(96, 144, 255);
    }
 
+   #objetivos p{
+    font-size: 12px;
+   }
+
+   #servicios{
+	 display: none;
+}
+
+	#servicios-mobile{
+	 display: block;
+}
+
 
 	.container{
 		width: 90%;
@@ -804,6 +832,7 @@ h3{
 		left: 0;
 		right: 0;
 		top: 16%;
+		width: 350px;
 	}
 
 	.texto-absoluto5{
