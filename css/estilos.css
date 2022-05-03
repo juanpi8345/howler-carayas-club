@@ -648,6 +648,10 @@ h3{
 	p{
 		font-size: 12px;
 	}
+	
+	header .menu{
+		display: none;
+	}
 
 	section#about-mobile{
 		background: linear-gradient(to bottom, rgb(108, 0, 191) , rgb(68, 0, 161));
