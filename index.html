@@ -1,915 +1,930 @@
-*{
-    box-sizing: border-box;
-    font-family: 'MinecraftiaRegular';
-    font-weight: normal;
-    font-style: normal;
-    
-}
-
-
-
-a{
-	text-decoration: none;
-	display: inline-block;
-}
-
-nav{
-	padding-top: 30px;
-	padding-bottom: 30px;
-	font-size: 14px;
-}
-
-section .img-banner{
-	display: block;
-	width: 100%;
-	height: auto;
-}
-
-section{
-	position: relative;
-	top: 0;
-	left: 0;
-}
-
-section#introduccion{
-	background: linear-gradient(to bottom, rgb(148, 0, 221), rgb(108, 0, 191));
-}
-
-section#roadmap{
-	background: linear-gradient(to bottom, rgb(68, 0, 161) , rgb(48,0,131));
-}
-
-section#roadmap-mobile{
-	background: linear-gradient(to bottom, rgb(68, 0, 161) , rgb(48,0,131));
-}
-
-section#objetivos{
-	background: linear-gradient(to bottom,rgb(48,0,131) , rgb(08, 0, 85));
-
-}
-
-section#servicios{
-	background: linear-gradient(to bottom,rgb(08, 0, 85) , rgb(0, 0, 61));
-}
-
-section#servicios-mobile{
-	background: linear-gradient(to bottom,rgb(08, 0, 85) , rgb(0, 0, 61));
-}
-
-section#about{
-	background: linear-gradient(to bottom,rgb(108, 0, 191) , rgb(68, 0, 161));
-	visibility: visible;
-}
-
-section#team{
-	background: linear-gradient(to bottom,rgb(0, 0, 61) , rgb(0,0,36));
-}
-
-section#team-mobile{
-	background: linear-gradient(to bottom,rgb(0, 0, 61) , rgb(0,0,36));
-}
-
-section#colaboradores{
-	background: linear-gradient(to bottom, rgb(28,0,71), rgb(8, 0, 41));
-}
-
-footer{
-	background: linear-gradient(to bottom, rgb(0, 0, 31), rgb(0, 0, 0));
-}
-
-h1{
-	font-size: 26px;
-	color: #fff;
-}
-
-h2{
-	font-size: 18px;
-	text-transform: uppercase;
-	font-weight: bold;
-	letter-spacing: 2px;
-	color: #fff;
-	display: inline;	
-}
-
-h3{
-	font-size: 16px;
-	color: #fff;
-}
-
-#banner .container{
-	position: absolute;
-	top: 30%;
-	left: 0;
-	right: 0;
-
-}
-#banner .img-banner-mobile{
-	display: none;
-}
-
-#introduccion .titulo{
-	font-weight: 600;
-}
-
-#introduccion span{
-	color: rgb(96, 144, 255);
-}
-
-
-#introduccion p{
-	color: orange;
-}
-
-#objetivos span{
-	color: rgb(96, 144, 255);
-}
-
-
-#objetivos p{
-	color: orange;
-}
-
-#roadmap h3{
-	color: #fff;
-	font-weight: bold;
-	font-size: 15px;
-	line-height: 1.5;
-}
-
-#roadmap p{
-	color: #fff;
-	font-weight: bold;
-	font-size: 14px;
-	line-height: 1.5;
-	text-align: center;
-	align-self: center;
-   margin-left: auto;
-   margin-right: auto;
-   padding: 0 15px;
-}
-
-#roadmap .imagen-roadmap{
-	display: flex;
-	height: 100%;
-	width: 100px;
-	background: rgb(88, 0, 161);
-	margin-left: 10px;
-
-}
-
-
-#roadmap .imagen-roadmap img{
-	height: 80px;
-	width: 80px;
-	align-self: center;
-	object-position: center;
-	margin-bottom: 40px;
-
-}
-
-#roadmap .roadmap-intro{
-	display: flex;
-	align-items: center;
-
-}
-
-#roadmap .titulo-roadmap{
-	display: flex;
-	width: 450px;
-	height: 100%;
-	background: rgb(88, 0, 161);
-	padding-right: 10px;
-}
-
-#roadmap .descripcion{
-	width: 100%;
-	height: 100%;
-	display: flex;
-}
-
-
-
-#roadmap h3{
-	text-transform: uppercase;
-	align-self: center;
-	margin-left: auto;
-	margin-right: auto;
-	font-size: 14px;
-}
-
-#roadmap span{
-	color: rgb(96, 144, 255);
-}
-
-#roadmap .descripcion p{
-	font-size: 13px;
-}
-
-#roadmap-mobile{
-	display: none;
-}
-
-#about p{
-	font-size: 13px;
-	line-height: 1.5;
-}
-#about-mobile{
-	visibility: hidden;
-	display: none;
-
-}
-
-#about h3{
-	font-size: 14px;
-}
-
-#servicios{
-	display: block;
-}
-
-#servicios-mobile{
-	display: none;
-}
-
-#team .circulo{
-	width: 150px;
-	height: 150px;
-	padding-bottom: 35px;
-	background-color: #000;
-	border: 5px solid #5800a1;
-	object-fit: contain;
-	transition-property: background;
-	transition-duration: .4s;
-}
-
-#team .circulo:hover{
-	background: rgb(88, 0, 161);
-}
-
-#team h4{
-	text-align: center;
-	color: #fff;
-	line-height: 1.5;
-}
-
-#team span{
-	color: #48e;
-}
-
-#team{
-	display: block;
-}
-
-#team-mobile{
-	display: none;
-}
-
-.container{
-	margin: 0 auto;
-	padding-left: 15px;
-	padding-right: 15px;
-	width:  1170px;
-}
-
-
-.cabecera .container{
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-}
-
-
-.cabecera{
-	width: 100%;
-	padding-bottom: 15px;
-	padding-top: 15px;
-	position: fixed;
-	top: 0;
-	left: 0;
-	z-index: 99;
-
-}
-
-.columna{
-	padding-left: 15px;
-	padding-right: 15px;
-	padding-top: 15px;
-	padding-bottom: 15px;
-
-}
-
-.columna-14{
-	width: 14.28%;
-}
-
-.columna-25{
-	width: 25%;
-}
-
-.columna-33{
-	width: 33%;
-}
-
-.columna-50{
-	width: 50%;
-}
-
-.columna-75{
-	width: 75%;
-}
-
-.columna-95{
-	width: 95%;
-}
-
-.columna-100{
-	width: 100%;
-}
-
-.columna-roadmap{
-	background-color:#3b38b3 ;
-}
-
-/*.columna-absoluta{
-	position: absolute;
-	top: 30%;
-	left: 35%;
-	right: 0;
-}*/
-
-.bienvenida span{
-	word-spacing: -7px;
-	line-height: 1.5;
-	font-weight: bold;
-	color: rgb(59,56,179);
-}
-
-.columna-celeste{
-	background: rgba(0, 0, 0,.7);
-	border: 2px solid rgb(59,56,179);
-}
-
-.columna-flex{
-	display: flex;
-	flex-wrap: wrap;
-	text-align: center;
-	justify-content: center;
-	width: 550px;
-	border-radius: 50px;
-	height: 400px;
-
-}
-
-.fila{
-	margin-left: -15px;
-	margin-right: -15px;
-	display: flex;
-	justify-content: center;
-}
-
-
-.cabecera .menu a{
-	margin-left: 25px;
-	margin-right: 25px;
-	word-spacing: 0px;
-	letter-spacing: 2px;
-	text-transform: uppercase;
-	color: #fff;
-	transition-property: color;
-	transition-duration: 1s;
-	font-weight: bold;
-
-}
-
-.cabecera .menu a:hover{
-	color: rgb(96, 144, 255);
-}
-
-
-
-.cabecera .logo{
-   display: inline-block;
-   vertical-align: middle;
-}
-
-.cabecera .logo{
-   width: 80px;
-   height: auto;
-}
-
-.circulo{
-	width: 200px;
-	height: 200px;
-	border: 2px solid #48e;
-	border-radius: 100px;
-	object-fit: cover;
-	border-radius: 100px;
-}
-
-.btn{
-	padding: 10px 30px;
-	font-size: 14px;
-	border: 2px solid rgb(59,56,179);
-	border-radius: 30px;
-	box-shadow: 3px 10px 20px #000;
-}
-
-.boton-transparente{
-	background: #48e;
-	color: rgb(59,56,179);
-	transition: background;
-	transition-duration: .3s;
-}
-
-.boton-transparente:hover{
-	background: rgba(59,56,179,0.3);
-}
-
-.alinear-texto{
-	text-align: center;
-}
-
-.parrafo{
-	line-height: 2;
-	color: #fff;
-	font-size: 15px;
-}
-
-.caja-texto{
-	width: 100%;
-}
-
-.caja-negra{
-	background-color: rgba(0, 0, 0, .5);
-	padding: 30px;
-	margin-left: -7px;
-	border: 2px solid #48e;
-}
-
-.sin-padding-de-lado{
-	padding-left: 0;
-	padding-right: 0;
-}
-
-.padding-superior-inferior{
-	padding-top: 15px;
-	padding-bottom: 15px;
-}
-
-.seccion{
-	padding-top: 15px;
-	padding-bottom: 30px;
-}
-
-.borde-redondo{
-	border-radius: 30px;
-	border-color: rgba(96, 144, 255, 0.9);
-}
-
-.redes-sociales{
-	display: flex;
-	width: 100%;
-	justify-content: space-around;
-}
-
-
-.discord img{
-	width: 60px;
-	height: 60px;
-	
-	
-}
-
-
-.twitter img{
-	width: 60px;
-	height: 60px;
-	
-
-	
-}
-
-.roadmap-introduccion{
-	display: inline-block;
-}
-
-.img-roadmap{
-	display: inline-block;
-	padding: 15px;
-	margin-right: 20px;
-	background-color: #3b38b3;
-
-}
-
-.flex-horizontal{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
-}
-
-.caja-servicios{
-	background-color: rgb(88, 0, 161);
-	width: 100%;
-	height: 100%;
-	border: 1px solid rgb(148, 0, 221);
-	box-shadow: 0px 0px 15px 0px rgb(148, 0, 221);
-	padding: 15px;
-
-}
-
-.parrafo-servicios{
-	color: #fff;
-	font-size: 14px;
-	line-height: 1.5;
-	font-weight: bold;
-  
-}
-
-.imagen-titulos{
-	width: 100%;
-	height: 135px;
-
-}
-
-.texto-absoluto{
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 9%;
-
-}
-
-.texto-absoluto2{
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 5.5%;
-}
-
-.texto-absoluto3{
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 7.5%;
-}
-
-.texto-absoluto4{
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 16%;
-}
-
-.texto-absoluto5{
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 4.9%;
-}
-
-
-.texto-absoluto7{
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 9%;
-}
-
-.texto-absoluto8{
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 43%;
-}
-
-
-.caja-about{
-	display: flex;
-	flex-direction: column;
-	border: 2px solid rgb(148, 0, 221);
-}
-
-.titulo-about{
-	background-color: rgb(88, 0, 161);
-	color: #fff;
-	font-size: 18px;
-	padding: 0 15px;
-	line-height: 1.5;
-}
-
-.parrafo-about{
-	background-color: rgb(148, 0, 221);
-	padding: 0 15px;
-	color: #fff;
-	font-size: 15px;
-	line-height: 1.5;
-}
-
-.margin-top{
-	margin-top: 20px;
-}
-
-.caja-roadmap{
-    width: 100%;
-    height: 100%;
-    border: 1px solid rgb(148, 0, 221);
-  
-
-}
-
-.violeta{
-	background-color: rgb(148, 0, 221);
-}
-
-.caja-team{
-	padding: 15px;
-	margin-left: auto;
-	margin-right: auto;
-	padding-right: 30px;
-	padding-left: 30px;
-}
-
-.img-team{
-	display: flex;
-	justify-content: center;
-}
-
-.cuadrado-perfecto{
-	width: 100%;
-	height: 100%;
-}
-
-.cuadrado-perfecto img{
-	object-fit: cover;
-	width: 100%;
-	height: 100%;
-}
-
-.seccion2{
-	padding-top: 100px;
-	padding-bottom: 50px;
-}
-
-.sin-padding{
-	padding: 0;
-}
-
-.sombra{
-	box-shadow: 0px 0px 100px 0 #5800a1;
-}
-
-.margin-left{
-	margin-left: -50px;
-}
-
-@media (max-width:  1170px){
-
-	body{
-		font-size: 15px;
-	}
-
-	header .cabecera{
-		visibility: hidden;
-	}
-
-	h1{
-		font-size: 20px;
-	}
-
-	h2{
-		font-size: 14px;
-	}
-
-	h3{
-		font-size: 13px;
-	}
-
-	h4{
-		font-size: 11px;
-	}
-
-	p{
-		font-size: 12px;
-	}
-
-	header .menu{
-		display: none;
-	}
-
-	section#about-mobile{
-		background: linear-gradient(to bottom, rgb(108, 0, 191) , rgb(68, 0, 161));
-	}
-
-	#banner{
-		height: 100vh;
-	}
-
-	#banner .img-banner{
-		display: none;
-	}
-
-	#banner .img-banner-mobile{
-		display: block;
-		width: 100%;
-		height: 100%;
-	}
-
-	#banner .circulo{
-		width: 120px;
-		height: 120px;
-	}
-
-	#banner .columna-absoluta{
-		width: 300px;
-		height: 300px;
-	}
-
-	#banner .redes-sociales .discord img{
-		width: 40px;
-		height: 40px;
-	}
-
-	#banner .redes-sociales .twitter img{
-		width: 40px;
-		height: 40px;
-	}
-
-	#banner .container{
-		top: 2%;
-	}
-
-	#introduccion .parrafo{
-		font-size: 12px;
-	}
-	#about{
-		visibility: hidden;
-		display: none;
-	}
-
-	#about-mobile{
-		visibility: visible;
-		background: background: linear-gradient(to bottom,rgb(108, 0, 191) , rgb(68, 0, 161));
-		display: block;
-	}
-
-	#roadmap{
-		display: none;
-	}
-
-	#roadmap-mobile{
-		display: block;
-	}
-
-
-	#roadmap-mobile .imagen-roadmap{
-		display: flex;
-		height: 80px;
-		width: 80px;
-		background: rgb(88, 0, 161);
-		margin-left: 10px;
-		padding-top: 7px;
-
-	}
-
-	#roadmap-mobile .imagen-roadmap img{
-		height: 80px;
-		width: 80px;
-		align-self: center;
-		object-position: center;
-		margin-bottom: 40px;
-
-	}
-
-	#roadmap-mobile .titulo-about{
-		display: flex;
-      justify-content: center;
-	}
-
-	#roadmap-mobile .titulo-roadmap{
-		display: flex;
-      align-self: center;
-	}
-
-	#roadmap-mobile .parrafo-about{
-		text-align: center;
-	}
-
-   #roadmap-mobile span{
-	   color: rgb(96, 144, 255);
-   }
-
-   #objetivos p{
-      font-size: 12px;
-   }
-
-   #servicios{
-	   display: none;
-  }
-
-	#servicios-mobile{
-	   display: block;
-  }
-   #team{
-	   display: none;
-  }
-
-	#team-mobile{
-	   display: block;
-  } 
-
-   #team-mobile .circulo{
-		width: 150px;
-		height: 150px;
-		padding-bottom: 35px;
-		background-color: #000;
-		border: 5px solid #5800a1;
-		object-fit: contain;
-		transition-property: background;
-		transition-duration: .4s;
-	}
-
-	#team-mobile.circulo:hover{
-		background: rgb(88, 0, 161);
-	}
-
-	#team-mobile h4{
-		text-align: center;
-		color: #fff;
-		line-height: 1.5;
-	}
-
-	#team-mobile span{
-		color: #48e;
-	}
-
-	#team-mobile .fila{
-		justify-content: space-around;
-	}
-
-
-
-
-
-	.container{
-		width: 90%;
-	}
-
-	.columna-mobile-100{
-		width: 100%;
-	}
-
-
-	 .texto-absoluto{
-		position: absolute;
-		left: 0;
-		right: 0;
-		top: 4%;
-
-	}
-
-	.texto-absoluto2{
-		position: absolute;
-		left: 0;
-		right: 0;
-		top: 5.5%;
-	}
-
-	.texto-absoluto3{
-		position: absolute;
-		left: 0;
-		right: 0;
-		top: 7.5%;
-	}
-
-	.texto-absoluto4{
-		position: absolute;
-		left: 0;
-		right: 0;
-		top: 16%;
-		width: 350px;
-	}
-
-	.texto-absoluto5{
-		position: absolute;
-		left: 0;
-		right: 0;
-		top: 4.9%;
-	}
-
-
-	.texto-absoluto7{
-		position: absolute;
-		left: 0;
-		right: 0;
-		top: 9%;
-	}
-
-	.texto-absoluto8{
-		position: absolute;
-		left: 0;
-		right: 0;
-		top: 43%;
-	}
-
-}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="icon" href="img/violeta.png">
+	<link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/minecraftia" type="text/css"/>
+	<script src="https://kit.fontawesome.com/f80bc176bc.js" crossorigin="anonymous"></script>
+
+	<title></title>
+</head>
+<body>
+	<header class="cabecera">
+		<div class="container">
+			<nav class="menu">
+				<a href="#introduccion">Introduccion</a>
+				<a href="#roadmap">Roadmap</a>
+				<a href="#objetivos">Objetivos</a>
+				<a href="#servicios">Servicios ambientales</a>
+				<a href="#acercaDe">Proyecto</a>
+				<a href="#team">Team</a>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<section id="banner">
+			<img src="img/banner.png" class="img-banner" width="1920" height="979">
+			<img src="img/img-mobile.jpg" class="img-banner-mobile" width="853" height="1280">
+			<div class="container">
+				<div class="fila">
+					<div class="columna columna-50 columna-flex columna-celeste columna-absoluta ">
+					  <h1 class="bienvenida">Bienvenidos a<br><span>Howler Carayas Club</span></h1>
+				      <img src="gif/gif.gif" width="300" height="300" class="circulo">
+			              <div class="redes-sociales">
+			              	  <div class="discord">
+			       	            <a href=""><img src="img/discord.ico" width="256" height="256"></a>
+			       	          </div>
+			       	          <div class="twitter">
+			       	         	 <a href=""><img src="img/twitter.png" width="256" height="256"></a>
+			       	          </div>           				
+			              	    </div>
+				         </div> 
+					</div>
+				</div>
+		</section>
+		<section id="introduccion">
+			<div class="container">
+				<div class="fila alinear-texto">
+					<div class="columna columna-100 sin-padding-de-lado">
+						<div class="caja-texto sin-padding-de-lado">
+							<img class="imagen-titulos" src="img/tablapro.png" width="2224" height="496">
+							<h2 class="texto-absoluto">Introduccion</h2>
+						</div>	
+					</div>
+				</div>
+				<div class="fila alinear-texto">
+					<div class="columna columna-100">
+						<div class="cuadrado caja-negra borde-redondo">
+							<p class="parrafo">
+								  <span class="titulo">Un aullido por el ambiente…</span><br><br>
+								 Como humanidad nos encontramos en un momento de extrema necesidad de proteger y conservar los <span>ecosistemas y biodiversidad.</span> Esta es una problemática sociocultural y económica del Antropoceno que degrada los bienes y servicios ambientales de los ecosistemas. <br><br>
+ 								 <span>“Howler Carayas Club"</span> es una colección de <span>2772 NFTs</span> de foto de perfil (Profile picture NFTs - PFP NFTs) con DeFi (Finanzas decentralizadas por sus siglas en inglés) y Blockchain que permite crear una herramienta económica transparente hacia organizaciones no gubernamentales y/o otras iniciativas de ciencia ciudadana con programas existentes y consolidados en materia de conservación biológica <span>del Mono aullador</span> (Género: Alouatta) en Latinoamérica. <br><br>
+								 Actualmente, las especies del género se encuentran en alguna categoría de la Lista Roja de Especies Amenazadas de la Unión Internacional para la Conservación de la Naturaleza (IUCN-Red List, por sus siglas en inglés). Estas especies son ecológicamente importantes para la óptima sostenibilidad de la <span>biodiversidad</span> y salud de los <span>ecosistemas</span> en los que habitan.
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id ="about">
+			<div class="container">
+				<div class="fila alinear-texto">
+					<div class="columna columna-100 sin-padding-de-lado">
+						<div class="caja-texto sin-padding-de-lado">
+							<img class="imagen-titulos" src="img/tablapro.png" width="2224" height="496">
+							<h2 class="texto-absoluto5">Sobre el proyecto</h2>
+						</div>	
+					</div>
+				</div>
+				<div class="fila alinear-texto">
+					<div class="columna columna-33 margin-top">
+						<div class="caja-about">
+							<div class="titulo-about">
+								<h3>Colección compuesta por 2772 NFT</h3>
+							</div>
+							<div class="parrafo-about">
+								<p>Estan enfocados en el mono aullador y
+       							las imágenes sugieren una actitud de empatía 
+       						    con el humano. </p>
+							</div>
+						</div>
+					</div>
+					<div class="columna columna-33 margin-top">
+						<div class="caja-about">
+							<div class="titulo-about">
+								<h3>Impacto del proyecto</h3>
+							</div>
+							<div class="parrafo-about">
+								<p>el proyecto tiene un impacto directo en servicios ambientales y áreas protegidas</p>
+							</div>
+						</div>
+					</div>
+					<div class="columna columna-33 margin-top">
+						<div class="caja-about">
+							<div class="titulo-about">
+								<h3>Futuras utilidades</h3>
+							</div>
+							<div class="parrafo-about">
+								<p>Futuras utilidades de los nfts determinadas por las alianzas estratégicas y búsquedas</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="fila alinear-texto">
+					<div class="columna columna-100 margin-top">
+						<div class="caja-about">
+							<div class="titulo-about">
+								<h3>Ventas y sus respectivas distribuciones</h3>
+							</div>
+							<div class="parrafo-about">
+								<p>El 50% de las ventas primarias y el 30% de las secundarias serán destinados a causas ambientales.<br><br>
+								De esos 50% un 7% serán destinados a campañas de conservación biológica a nivel comunitario de la necesidad de crear y fortalecer programas en áreas naturales protegidas.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+					<div class="fila alinear-texto">
+					  <div class="columna columna-33 margin-top">
+						<div class="caja-about">
+							<div class="titulo-about">
+								<h3>Mundo nft sobre un motor de servicios ambientales</h3>
+							</div>
+							<div class="parrafo-about">
+								<p>La colección de howler carayas club será lanzada sobre la red de NEAR protocol.<br><br>La cual es neutral en cuanto a las emisiones de Co2</p>
+							</div>
+						</div>
+					</div>
+						<div class="columna columna-33 margin-top">
+						 <div class="caja-about">
+							<div class="titulo-about">
+								<h3>Proteccion ambiental y proyectos nfts</h3>
+							</div>
+							<div class="parrafo-about">
+								<p>Primer aullido de una serie de proyectos NFTs<br>  enfocados en la protección ambiental y su conservacion </p>
+							</div>
+						</div>
+					</div>
+					<div class="columna columna-33 margin-top">
+						<div class="caja-about">
+							<div class="titulo-about">
+								<h3>2da colección<br>HCC</h3>
+							</div>
+							<div class="parrafo-about">
+								<p>Será orientada a la comunidad circundante al área protegida en la 1er edición de HCC.En la cual serán empleadas  algunas de las ideas de vizibilización seleccionadas por la comunidad.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="fila alinear-texto">
+					<div class="columna columna-100 margin-top">
+						<div class="caja-about">
+							<div class="titulo-about">
+								<h3>Variables en las imagenes</h3>
+							</div>
+							<div class="parrafo-about">
+								<p>10 Posiciones - 9 Fondos - 10 Remeras - 20 Lentes - 8 Bigotes - 49 Sombreros - 9 Ejecciones - 7 Accesorios agarrados - 5 Joyas - Super raros con trajes: medieval y astronaut <br><br>
+								Serán lanzados 172 nfts súper raros con accesorios exclusivos para los primeros 100 en unirse al servidor  y los que participen de la whitelist 100</p>
+							</div>
+						</div>
+					</div>
+				</div>
+					<div class="fila alinear-texto">
+					<div class="columna columna-33 margin-top">
+						<div class="caja-about">
+							<div class="titulo-about">
+								<h3>HCC</h3>
+							</div>
+							<div class="parrafo-about">
+								<p>Buscamos unir y crear comunidad de entusiastas del cuidado del medio ambiente.   Apoyando la creación y mantención de reservas naturales</p>
+							</div>
+						</div>
+					</div>
+					<div class="columna columna-33 margin-top">
+						<div class="caja-about">
+							<div class="titulo-about">
+								<h3>Sobre los fondos<br>Ventas secundarias</h3>
+							</div>
+							<div class="parrafo-about">
+								<p>30% Reservas - 30% Holders - 15% Proyecto - 25% Team</p>
+							</div>
+						</div>
+					</div>
+						<div class="columna columna-33 margin-top">
+						<div class="caja-about">
+							<div class="titulo-about">
+								<h3>Sobre los fondos<br>Ventas primarias</h3>
+							</div>
+							<div class="parrafo-about">
+								<p>43% Para una reserva - 7% Acciones de visibilizacion - 40% Team - 10% Promocion del proyecto</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="fila alinear-texto">
+					<div class="columna columna-50 margin-top">
+						<div class="caja-about">
+							<div class="titulo-about">
+								<h3>Representacion de los NFTS</h3>
+							</div>
+							<div class="parrafo-about">
+								<p>Cada NFT representa una donación a una organización dedicada a la conservación del medio ambiente</p>
+							</div>
+						</div>
+					</div>
+					<div class="columna columna-50 margin-top">
+						<div class="caja-about">
+							<div class="titulo-about">
+								<h3>Objetivo del proyecto</h3>
+							</div>
+							<div class="parrafo-about">
+								<p>el proyecto busca crear un vinculo entre el ecosistema natural y el ecosistema Blockchain</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="about-mobile">
+			<div class="container">
+				<div class="fila alinear-texto">
+					<div class="columna columna-100 sin-padding-de-lado">
+						<div class="caja-texto sin-padding-de-lado">
+							<img class="imagen-titulos" src="img/tablapro.png" width="2224" height="496">
+							<h2 class="texto-absoluto5">Sobre el proyecto</h2>
+						</div>	
+					</div>
+				</div>
+				<div class="fila alinear-texto">
+					<div class="columna columna-100 margin-top">
+						<div class="caja-about">
+							<div class="titulo-about">
+								<h3>Colección compuesta por 2772 NFT</h3>
+							</div>
+							<div class="parrafo-about">
+								<p>Estan enfocados en el mono aullador y
+       							las imágenes sugieren una actitud de empatía 
+       						    con el humano. </p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="fila alinear-texto">
+					<div class="columna columna-100 margin-top">
+						<div class="caja-about">
+							<div class="titulo-about">
+								<h3>Impacto del proyecto</h3>
+							</div>
+							<div class="parrafo-about">
+								<p>el proyecto tiene un impacto directo en servicios ambientales y áreas protegidas</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="fila alinear-texto">
+					<div class="columna columna-100 margin-top">
+						<div class="caja-about">
+							<div class="titulo-about">
+								<h3>Futuras utilidades</h3>
+							</div>
+							<div class="parrafo-about">
+								<p>Futuras utilidades de los nfts determinadas por las alianzas estratégicas y búsquedas</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="fila alinear-texto">
+					<div class="columna columna-100 margin-top">
+						<div class="caja-about">
+							<div class="titulo-about">
+								<h3>Ventas y sus respectivas distribuciones</h3>
+							</div>
+							<div class="parrafo-about">
+								<p>El 50% de las ventas primarias y el 30% de las secundarias serán destinados a causas ambientales.<br><br>
+								De esos 50% un 7% serán destinados a campañas de conservación biológica a nivel comunitario de la necesidad de crear y fortalecer programas en áreas naturales protegidas.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="fila alinear-texto">
+					<div class="columna columna-100 margin-top">
+						<div class="caja-about">
+							<div class="titulo-about">
+								<h3>Mundo nft sobre un motor de servicios ambientales</h3>
+							</div>
+							<div class="parrafo-about">
+								<p>La colección de howler carayas club será lanzada sobre la red de NEAR protocol.<br><br>La cual es neutral en cuanto a las emisiones de Co2</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="fila alinear-texto">
+					<div class="columna columna-100 margin-top">
+						<div class="caja-about">
+							<div class="titulo-about">
+								<h3>Proteccion ambiental y proyectos nfts</h3>
+							</div>
+							<div class="parrafo-about">
+								<p>Primer aullido de una serie de proyectos NFTs<br>  enfocados en la protección ambiental y su conservacion </p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="fila alinear-texto">
+					<div class="columna columna-100 margin-top">
+						<div class="caja-about">
+							<div class="titulo-about">
+								<h3>2da colección<br>HCC</h3>
+							</div>
+							<div class="parrafo-about">
+								<p>Será orientada a la comunidad circundante al área protegida en la 1er edición de HCC.En la cual serán empleadas  algunas de las ideas de vizibilización seleccionadas por la comunidad.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="fila alinear-texto">
+					<div class="columna columna-100 margin-top">
+						<div class="caja-about">
+							<div class="titulo-about">
+								<h3>Variables en las imagenes</h3>
+							</div>
+							<div class="parrafo-about">
+								<p>10 Posiciones - 9 Fondos - 10 Remeras - 20 Lentes - 8 Bigotes - 49 Sombreros - 9 Ejecciones - 7 Accesorios agarrados - 5 Joyas - Super raros con trajes: medieval y astronaut <br><br>
+								Serán lanzados 172 nfts súper raros con accesorios exclusivos para los primeros 100 en unirse al servidor  y los que participen de la whitelist 100</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="fila alinear-texto">
+					<div class="columna columna-100 margin-top">
+						<div class="caja-about">
+							<div class="titulo-about">
+								<h3>HCC</h3>
+							</div>
+							<div class="parrafo-about">
+								<p>Buscamos unir y crear comunidad de entusiastas del cuidado del medio ambiente.   Apoyando la creación y mantención de reservas naturales</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="fila alinear-texto">
+					<div class="columna columna-100 margin-top">
+						<div class="caja-about">
+							<div class="titulo-about">
+								<h3>Sobre los fondos<br>Ventas primarias</h3>
+							</div>
+							<div class="parrafo-about">
+								<p>43% Para una reserva - 7% Acciones de visibilizacion - 40% Team - 10% Promocion del proyecto</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="fila alinear-texto">
+					<div class="columna columna-100 margin-top">
+						<div class="caja-about">
+							<div class="titulo-about">
+								<h3>Sobre los fondos<br>Ventas secundarias</h3>
+							</div>
+							<div class="parrafo-about">
+								<p>30% Reservas - 30% Holders - 15% Proyecto - 25% Team</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="fila alinear-texto">
+					<div class="columna columna-100 margin-top">
+						<div class="caja-about">
+							<div class="titulo-about">
+								<h3>Representacion de los NFTS</h3>
+							</div>
+							<div class="parrafo-about">
+								<p>Cada NFT representa una donación a una organización dedicada a la conservación del medio ambiente</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="fila alinear-texto">
+					<div class="columna columna-100 margin-top">
+						<div class="caja-about">
+							<div class="titulo-about">
+								<h3>Objetivo del proyecto</h3>
+							</div>
+							<div class="parrafo-about">
+								<p>el proyecto busca crear un vinculo entre el ecosistema natural y el ecosistema Blockchain</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="roadmap">
+			<div class="container">
+				<div class="fila alinear-texto sin-padding-de-lado">
+					<div class="columna columna-100 sin-padding-de-lado">
+						<div class="caja-texto">
+							<img class="imagen-titulos" src="img/tablapro.png" width="2224" height="496">
+							<h2 class="texto-absoluto2">ROADMAP</h2>
+						</div>	
+					</div>
+				</div>
+				<div class="fila seccion">
+					<div class="columna-95 violeta">
+						<div class="roadmap-intro caja-roadmap">
+							<div class="imagen-roadmap">
+								<img class src="img/negro.png" width="1648" height= "1648">
+							</div>
+							<div class="titulo-roadmap alinear-texto">
+								<h3>Etapa de presentacion</h3>
+							</div>
+							<div class="descripcion alinear-texto">
+							 	<p><span>twitter:</span> @howlercarayasclub<br><span>instagram:</span><br><span>discord:</span><br><span>pagina web:</span></p>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<div class="fila seccion">
+					<div class="columna-95 violeta">
+						<div class="roadmap-intro caja-roadmap">
+							<div class="imagen-roadmap">
+								<img class src="img/amarillo.png" width="1648" height= "1648">
+							</div>
+							<div class="titulo-roadmap alinear-texto">
+								<h3>Etapa de programacion hacia blockchain</h3>
+							</div>
+							<div class="descripcion alinear-texto">
+							 	<p><span>1.</span> Generar arte y metadata de 2772 NFTs (172 super raros)<br><br><span>2.</span> Deploy smart contract sobre near protocol</p>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<div class="fila seccion">
+					<div class="columna-95 violeta">
+						<div class="roadmap-intro caja-roadmap">
+							<div class="imagen-roadmap">
+								<img class src="img/violeta.png" width="1648" height= "1648">
+							</div>
+							<div class="titulo-roadmap alinear-texto">
+								<h3>Etapa de PRE VENTA</h3>
+							</div>
+							<div class="descripcion alinear-texto">
+							 	<p><span>1.</span> 100 lugares  para los primeros en unirse al servidor, con derecho a 2 mint ( 72 super paros )<br><br>
+   								<span>2.</span> Whitelist 1272 lugares con derecho a 1 mint ( 100 super raros)</p>
+						  </div>
+						</div>
+					</div>
+				</div> 
+				<div class="fila seccion">
+					<div class="columna-95 violeta">
+						<div class="roadmap-intro caja-roadmap">
+							<div class="imagen-roadmap">
+								<img class src="img/azul.png" width="1648" height= "1648">
+							</div>
+							<div class="titulo-roadmap alinear-texto">
+								<h3>Etapa de VENTA PUBLICA</h3>
+							</div>
+							<div class="descripcion alinear-texto">
+							 	<p><span>1.</span> 1300 nfts Cada dirección tendrá Derecho a 1 mint</p>
+						  </div>
+						</div>
+					</div>
+				</div> 
+				<div class="fila seccion">
+					<div class="columna-95 violeta">
+						<div class="roadmap-intro caja-roadmap">
+							<div class="imagen-roadmap">
+								<img class src="img/naranja.png" width="1648" height= "1648">
+							</div>
+							<div class="titulo-roadmap alinear-texto">
+								<h3>Etapa de Sold out</h3>
+							</div>
+							<div class="descripcion alinear-texto">
+							 	<p><span>1.</span> creación del tesoro ambiental en wallet de NEAR (43% reserva, 7%  ideas)<br><br><span>2.</span> Seleccionar ideas de acciones comunitarias en materia de conservacion biologica (seleccionadas por la comunidad del discord)<br><br> <span>3.</span> traslado de fondos a reserva (seleccionada por holders)</p>
+						  </div>
+						</div>
+					</div>
+				</div> 
+				<div class="fila seccion">
+					<div class="columna-95 violeta">
+						<div class="roadmap-intro caja-roadmap">
+							<div class="imagen-roadmap">
+								<img class src="img/verde.png" width="1648" height= "1648">
+							</div>
+							<div class="titulo-roadmap alinear-texto">
+								<h3>Etapa de POST VENTA</h3>
+							</div>
+							<div class="descripcion alinear-texto">
+							 	<p><span>1. </span>2da edición de howler carayas club <br><br> <span>2. </span>Los holders recibiran un 30% de las ventas de las ventas secundarias<br><br> <span>3.</span> implementacion de ideas de acciones comunitarias en materia de conservacion biologica <br><br> <span>4.</span> el horizonte se traslada</p>
+						  </div>
+						</div>
+					</div>
+				</div> 
+			<div>     		
+		</section>
+		<section id="roadmap-mobile">
+		   <div class="container">
+		   	<div class="fila alinear-texto sin-padding-de-lado">
+					<div class="columna columna-100 sin-padding-de-lado">
+						<div class="caja-texto">
+							<img class="imagen-titulos" src="img/tablapro.png" width="2224" height="496">
+							<h2 class="texto-absoluto2">ROADMAP</h2>
+						</div>	
+					</div>
+				</div>
+			  <div class="fila">
+				<div class="columna columna-100">
+					<div class="caja-about">
+							<div class="titulo-about">
+								<div class="imagen-roadmap">
+								     <img class src="img/negro.png" width="1648" height= "1648">
+							    </div>
+							    <div class="titulo-roadmap alinear-texto">
+								     <h3>Etapa de presentacion</h3>
+							     </div>
+							</div>
+							<div class="parrafo-about">
+								<p><span>twitter:</span> @howlercarayasclub<br><span>instagram:</span><br><span>discord:</span><br><span>pagina web:</span></p>
+						     </div>
+					   </div>
+				  </div>
+			  </div>
+			  <div class="fila">
+				<div class="columna columna-100">
+					<div class="caja-about">
+							<div class="titulo-about">
+								<div class="imagen-roadmap">
+								     <img class src="img/amarillo.png" width="1648" height= "1648">
+							    </div>
+							    <div class="titulo-roadmap alinear-texto">
+								     <h3>Etapa de programacion hacia blockchain</h3>
+							     </div>
+							</div>
+							<div class="parrafo-about">
+								<p><span>1.</span> Generar arte y metadata de 2772 NFTs (172 super raros)<br><br><span>2.</span> Deploy smart contract sobre near protocol</p>
+						     </div>
+					   </div>
+				  </div>
+			  </div>
+			   <div class="fila">
+				<div class="columna columna-100">
+					<div class="caja-about">
+							<div class="titulo-about">
+								<div class="imagen-roadmap">
+								     <img class src="img/violeta.png" width="1648" height= "1648">
+							    </div>
+							    <div class="titulo-roadmap alinear-texto">
+								     <h3>Etapa de pre venta</h3>
+							     </div>
+							</div>
+							<div class="parrafo-about">
+								<p><span>1. </span>2da edición de howler carayas club <br><br> <span>2. </span>Los holders recibiran un 30% de las ventas de las ventas secundarias<br><br> <span>3.</span> implementacion de ideas de acciones comunitarias en materia de conservacion biologica <br><br> <span>4.</span> el horizonte se traslada</p>
+						     </div>
+					   </div>
+				  </div>
+			  </div>
+			    <div class="fila">
+				<div class="columna columna-100">
+					<div class="caja-about">
+							<div class="titulo-about">
+								<div class="imagen-roadmap">
+								     <img class src="img/azul.png" width="1648" height= "1648">
+							    </div>
+							    <div class="titulo-roadmap alinear-texto">
+								     <h3>Etapa de venta publica</h3>
+							     </div>
+							</div>
+							<div class="parrafo-about">
+								<p><span>1.</span> 1300 nfts Cada dirección tendrá Derecho a 1 mint</p>
+						     </div>
+					   </div>
+				  </div>
+			  </div>
+			    <div class="fila">
+				<div class="columna columna-100">
+					<div class="caja-about">
+							<div class="titulo-about">
+								<div class="imagen-roadmap">
+								     <img class src="img/naranja.png" width="1648" height= "1648">
+							    </div>
+							    <div class="titulo-roadmap alinear-texto">
+								     <h3>Etapa de sold out</h3>
+							     </div>
+							</div>
+							<div class="parrafo-about">
+								<p><span>1.</span> creación del tesoro ambiental en wallet de NEAR (43% reserva, 7%  ideas)<br><br><span>2.</span> Seleccionar ideas de acciones comunitarias en materia de conservacion biologica (seleccionadas por la comunidad del discord)<br><br> <span>3.</span> traslado de fondos a reserva (seleccionada por holders)</p>
+						     </div>
+					   </div>
+				  </div>
+			  </div>
+			    <div class="fila">
+				<div class="columna columna-100">
+					<div class="caja-about">
+							<div class="titulo-about">
+								<div class="imagen-roadmap">
+								     <img class src="img/verde.png" width="1648" height= "1648">
+							    </div>
+							    <div class="titulo-roadmap alinear-texto">
+								     <h3>Etapa de post venta</h3>
+							     </div>
+							</div>
+							<div class="parrafo-about">
+								<p><span>1. </span>2da edición de howler carayas club <br><br> <span>2. </span>Los holders recibiran un 30% de las ventas de las ventas secundarias<br><br> <span>3.</span> implementacion de ideas de acciones comunitarias en materia de conservacion biologica <br><br> <span>4.</span> el horizonte se traslada</p>
+						     </div>
+					   </div>
+				  </div>
+			  </div>
+	       </div>
+		</section>
+		<section id="objetivos">
+			<div class="container">
+				<div class="fila alinear-texto sin-padding-de-lado">
+					<div class="columna columna-100 sin-padding-de-lado">
+						<div class="caja-texto">
+							<img class="imagen-titulos" src="img/tablapro.png" width="2224" height="496">
+							<h2 class="texto-absoluto3">Objetivos</h2>
+						</div>	
+					</div>
+				</div>
+				<div class="fila alinear-texto">
+					<div class="columna columna-100">
+						<div class="cuadrado caja-negra borde-redondo">
+						  <article>
+					          <p class="parrafo"><span>1.</span>  Recaudar fondos destinados a reservas del hábitat del mono aullador. <br> <br>
+							  <span>2.</span>  Crear un modelo de financiación de proyectos destinados a la conservación del medio ambiente <br> <br>
+							  <span>3.</span>  Demostrar que es posible  generar redito económico al hecho de crear y cuidar áreas protegidas<br> <br>
+							  <span>4.</span>  Establecer alianzas con organizaciones ocupadas de la creación y mantención de areas naturales protegidas<br> <br>
+							  <span>5.</span>  unir y crear comunidad comprometida con el cuidado del ecosistema<br> <br>
+							  <span>6.</span>  Sentar precedentes en la posibilidad de solventar reservas y causas ambientales por medio de los NFTs utilizando blockchains carbónicamente neutrales<br> <br>
+							  <span>7.</span>  Aportar nuevas soluciones para hacer de las reservas naturales protegidas, herramientas de desenvolvimiento de las comunidades  vecinas a las reservas <br> <br>
+							  <span>8.</span>  Visibilizar la necesidad de la creación y mantención de áreas protegidas naturales para el desenvolvimiento de la vida silvestre<br> <br>
+	  						  <span>9.</span>  Brindar información relacionada a los estados de conservación de las reservas de LATAM</p> <br>
+	  						</article>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="servicios">
+			<div class="container">
+				<div class="fila alinear-texto sin-padding-de-lado">
+					<div class="columna columna-100 sin-padding-de-lado">
+						<div class="caja-texto">
+							<img class="imagen-titulos" src="img/tablapro.png" width="2224" height="496">
+							<h2 class="texto-absoluto4">Servicios ambientales derivados</h2>
+						</div>	
+					</div>
+				</div>
+				<div class="fila alinear-texto">
+					<div class="columna columna-100">
+							<div class="fila">
+								<div class="columna columna-33">
+									<div class="caja-servicios alinear-texto">
+										<p class="parrafo-servicios">Conservación de hábitats naturales</p>
+									</div>
+								</div>
+								<div class="columna columna-33">
+									<div class="caja-servicios">
+										<p class="parrafo-servicios">Conservación de especies</p>
+									</div>
+								</div>
+								<div class="columna columna-33">
+									<div class="caja-servicios">
+										<p class="parrafo-servicios">Reducción de emisiones de co2</p>
+									</div>
+								</div>
+							</div>
+							<div class="fila">
+								<div class="columna columna-50">
+									<div class="caja-servicios">
+										<p class="parrafo-servicios">Concientización de la problemática de la conservación de áreas naturales protegidas</p>
+									</div>
+								</div>
+								<div class="columna columna-50">
+								  <div class="caja-servicios">
+								  	<p class="parrafo-servicios">reintroducción de especies en potencial peligro de extincion</p>
+								  </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="servicios-mobile">
+			<div class="container">
+				<div class="fila alinear-texto sin-padding-de-lado">
+					<div class="columna columna-100 sin-padding-de-lado">
+						<div class="caja-texto">
+							<img class="imagen-titulos" src="img/tablapro.png" width="2224" height="496">
+							<h2 class="texto-absoluto4">Servicios ambientales derivados</h2>
+						</div>	
+					</div>
+				</div>
+				<div class="fila alinear-texto">
+					<div class="columna columna-100">
+						<div class="caja-servicios alinear-texto">
+							<p class="parrafo-servicios">Conservación de hábitats naturales</p>
+						</div>
+					</div>
+				</div>
+				<div class="fila alinear-texto">
+					<div class="columna columna-100">
+						<div class="caja-servicios alinear-texto">
+							<p class="parrafo-servicios">Conservación de especies</p>
+						</div>
+					</div>
+				</div>
+				<div class="fila alinear-texto">
+					<div class="columna columna-100">
+						<div class="caja-servicios alinear-texto">
+							<p class="parrafo-servicios">Reducción de emisiones de co2</p>
+						</div>
+					</div>
+				</div>
+				<div class="fila alinear-texto">
+					<div class="columna columna-100">
+						<div class="caja-servicios alinear-texto">
+							<p class="parrafo-servicios">Concientización de la problemática de la conservación de áreas naturales protegidas</p>
+						</div>
+					</div>
+				</div>
+				<div class="fila alinear-texto">
+					<div class="columna columna-100">
+						<div class="caja-servicios alinear-texto">
+							<p class="parrafo-servicios">Reintroducción de especies en potencial peligro de extincion</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id = "team">
+			<div class="container">
+				<div class="fila alinear-texto">
+					<div class="columna columna-100 alinear-texto sin-padding-de-lado">
+						<div class="caja-texto sin-padding-de-lado">
+							<img class="imagen-titulos" src="img/tablapro.png" width="2224" height="496">
+							<h2 class="texto-absoluto7">Team</h2>
+						</div>	
+					</div>
+				</div>
+				<div class="fila">
+					<div class="fila columna columna-33">
+						<div class="caja-team">
+							<div class="img-team">
+							  <img src="img/amarillo.png" class="circulo" width="1648" height="1648">  
+							  </div>
+							<h4>Tepixelize (Santi)<br><span>Artista, director y dueño</span></h4>
+						</div>
+					</div>
+					<div class="fila columna columna-33">
+						<div class="caja-team">
+							<div class="img-team">
+								<img src="img/violeta.png" class="circulo" width="1648" height="1648">
+							</div>
+							<h4>Juan<br><span>Dev y programador web</span></h4>
+						</div>
+					</div>
+				 	<div class="fila columna columna-33">
+				 		<div class="caja-team">
+				 			<div class="img-team">
+							  <img src="img/azul.png" class="circulo" width="1648" 
+							  height="1648">
+							</div>
+							<h4>Maldito monky<br><span>Advisor</span></h4>
+						</div>
+				 	</div>
+			  </div>
+			  <div class="fila">
+					<div class="fila columna columna-33">
+						<div class="caja-team">
+							<div class="img-team">
+							  <img src="img/naranja.png" class="circulo" width="1648" height="1648">  
+							  </div>
+							<h4>Mario Flores<br><span>Gestor ambiental</span></h4>
+						</div>
+					</div>
+					<div class="fila columna columna-33">
+						<div class="caja-team">
+							<div class="img-team">
+								<img src="img/verde.png" class="circulo" width="1648" height="1648">
+							</div>
+							<h4>Leandro Manzanal<br><span>Full-stack & Rust developer</span></h4>
+						</div>
+					</div>
+				 	<div class="fila columna columna-33">
+				 		<div class="caja-team">
+				 			<div class="img-team">
+							  <img src="img/negro.png" class="circulo" width="1648" 
+							  height="1648">
+							</div>
+							<h4>Frank<br><span>Community manager</span></h4>
+						</div>
+				 	</div>
+			  </div>
+			</div>
+		</section>
+		<section id="team-mobile">
+			<div class="container">
+				<div class="fila alinear-texto">
+					<div class="columna columna-100 alinear-texto sin-padding-de-lado">
+						<div class="caja-texto sin-padding-de-lado">
+							<img class="imagen-titulos" src="img/tablapro.png" width="2224" height="496">
+							<h2 class="texto-absoluto7">Team</h2>
+						</div>	
+					</div>
+				</div>
+				<div class="fila">
+					<div class="fila columna columna-50">
+						<div class="caja-team">
+							<div class="img-team">
+							  <img src="img/amarillo.png" class="circulo" width="1648" height="1648">  
+							  </div>
+							<h4>Tepixelize (Santi)<br><span>Artista, director y dueño</span></h4>
+						</div>
+					</div>
+					<div class="fila columna columna-50">
+						<div class="caja-team">
+							<div class="img-team">
+								<img src="img/violeta.png" class="circulo" width="1648" height="1648">
+							</div>
+							<h4 >Juan<br><span>Dev y programador web</span></h4>
+						</div>
+					</div>
+				</div>
+				<div class="fila">
+					<div class="fila columna columna-50">
+						<div class="caja-team">
+				 			<div class="img-team">
+							  <img src="img/azul.png" class="circulo" width="1648" 
+							  height="1648">
+							</div>
+							<h4>Maldito monky<br><span>Advisor</span></h4>
+						</div>
+					</div>
+					<div class="fila columna columna-50">
+						<div class="caja-team">
+							<div class="img-team">
+							  <img src="img/naranja.png" class="circulo" width="1648" height="1648">  
+							  </div>
+							<h4>Mario Flores<br><span>Gestor ambiental</span></h4>
+						</div>
+					</div>
+					</div>
+					<div class="fila">
+					<div class="fila columna columna-50">
+						<div class="caja-team">
+							<div class="img-team">
+								<img src="img/verde.png" class="circulo" width="1648" height="1648">
+							</div>
+							<h4>Leandro Manzanal<br><span>Full-stack & Rust developer</span></h4>
+						</div>
+					</div>
+					<div class="fila columna columna-50">
+						<div class="caja-team">
+				 			<div class="img-team">
+							  <img src="img/negro.png" class="circulo" width="1648" 
+							  height="1648">
+							</div>
+							<h4>Frank<br><span>Community manager</span></h4>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+		</section>
+		<!-- <section id="colaboradores">
+			<div class="container">
+					<div class="fila alinear-texto">
+					  <div class="columna columna-100 alinear-texto">
+						<div class="caja-texto sin-padding-de-lado">
+							<img class="imagen-titulos" src="img/tablapro.png" width="2224" height="496">
+							<h2 class="texto-absoluto8">Colaboradores</h2>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</section> -->
+	</main>
+	<footer class="seccion2">
+		<div class="container">
+			<div class="fila sombra margin-left">
+				<div class="columna columna-50 sin-padding">
+					<div class="cuadrado-perfecto">
+						<img src="img/4.png" width="800" height="800">
+					</div>
+				</div>
+				<div class="columna columna-50 sin-padding">
+					<div class="fila">
+						<div class="columna columna-50 sin-padding">
+							<div class="cuadrado-perfecto">
+								<img src="img/1.png" width="800" height="800">
+					         </div>
+						 </div>
+						<div class="columna columna-50 sin-padding">
+							<div class="cuadrado-perfecto">
+								<img src="img/2.png" width="800" height="800">
+					         </div>
+						</div>
+					</div>
+					<div class="fila">
+						<div class="columna columna-50 sin-padding">
+							<div class="cuadrado-perfecto">
+								<img src="img/3.png" width="800" height="800">
+					         </div>
+						</div>
+						<div class="columna columna-50 sin-padding">
+							<div class="cuadrado-perfecto">
+								<img src="img/5.png" width="800" height="800">
+					         </div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="fila">
+				<div class="columna columna-100 alinear-texto">
+					<h3>® Howler Carayas Club 2022</h3>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
