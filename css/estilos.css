@@ -65,6 +65,10 @@ section#team{
 	background: linear-gradient(to bottom,rgb(0, 0, 61) , rgb(0,0,36));
 }
 
+section#team-mobile{
+	background: linear-gradient(to bottom,rgb(0, 0, 61) , rgb(0,0,36));
+}
+
 section#colaboradores{
 	background: linear-gradient(to bottom, rgb(28,0,71), rgb(8, 0, 41));
 }
@@ -250,6 +254,14 @@ h3{
 
 #team span{
 	color: #48e;
+}
+
+#team{
+	display: block;
+}
+
+#team-mobile{
+	display: none;
 }
 
 .container{
@@ -673,6 +685,10 @@ h3{
 		font-size: 13px;
 	}
 
+	h4{
+		font-size: 11px;
+	}
+
 	p{
 		font-size: 12px;
 	}
@@ -784,16 +800,55 @@ h3{
    }
 
    #objetivos p{
-    font-size: 12px;
+      font-size: 12px;
    }
 
    #servicios{
-	 display: none;
-}
+	   display: none;
+  }
 
 	#servicios-mobile{
-	 display: block;
-}
+	   display: block;
+  }
+   #team{
+	   display: none;
+  }
+
+	#team-mobile{
+	   display: block;
+  } 
+
+   #team-mobile .circulo{
+		width: 150px;
+		height: 150px;
+		padding-bottom: 35px;
+		background-color: #000;
+		border: 5px solid #5800a1;
+		object-fit: contain;
+		transition-property: background;
+		transition-duration: .4s;
+	}
+
+	#team-mobile.circulo:hover{
+		background: rgb(88, 0, 161);
+	}
+
+	#team-mobile h4{
+		text-align: center;
+		color: #fff;
+		line-height: 1.5;
+	}
+
+	#team-mobile span{
+		color: #48e;
+	}
+
+	#team-mobile .fila{
+		justify-content: space-around;
+	}
+
+
+
 
 
 	.container{
