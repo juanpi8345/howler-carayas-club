@@ -14,9 +14,13 @@ a{
 }
 
 nav{
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	font-size: 14px;
+	display: flex;
+	justify-content: center;
+	border-top: 2px solid rgb(59,56,179);
+	border-bottom: 2px solid rgb(59,56,179);
 }
 
 section .img-banner{
@@ -34,6 +38,11 @@ section{
 section#introduccion{
 	background: linear-gradient(to bottom, rgb(148, 0, 221), rgb(108, 0, 191));
 }
+
+section#introduccion-mobile{
+	background: linear-gradient(to bottom, rgb(148, 0, 221), rgb(108, 0, 191));
+}
+
 
 section#roadmap{
 	background: linear-gradient(to bottom, rgb(68, 0, 161) , rgb(48,0,131));
@@ -61,6 +70,10 @@ section#about{
 	visibility: visible;
 }
 
+section#about-mobile{
+		background: linear-gradient(to bottom, rgb(108, 0, 191) , rgb(68, 0, 161));
+	}
+
 section#team{
 	background: linear-gradient(to bottom,rgb(0, 0, 61) , rgb(0,0,36));
 }
@@ -78,12 +91,12 @@ footer{
 }
 
 h1{
-	font-size: 26px;
+	font-size: 25px;
 	color: #fff;
 }
 
 h2{
-	font-size: 18px;
+	font-size: 17px;
 	text-transform: uppercase;
 	font-weight: bold;
 	letter-spacing: 2px;
@@ -92,7 +105,7 @@ h2{
 }
 
 h3{
-	font-size: 16px;
+	font-size: 13px;
 	color: #fff;
 }
 
@@ -107,6 +120,14 @@ h3{
 	display: none;
 }
 
+#introduccion{
+	display: block;
+}
+
+#introduccion-mobile{
+	display: none;
+}
+
 #introduccion .titulo{
 	font-weight: 600;
 }
@@ -114,7 +135,6 @@ h3{
 #introduccion span{
 	color: rgb(96, 144, 255);
 }
-
 
 #introduccion p{
 	color: orange;
@@ -129,17 +149,10 @@ h3{
 	color: orange;
 }
 
-#roadmap h3{
-	color: #fff;
-	font-weight: bold;
-	font-size: 15px;
-	line-height: 1.5;
-}
-
 #roadmap p{
 	color: #fff;
 	font-weight: bold;
-	font-size: 14px;
+	font-size: 12px;
 	line-height: 1.5;
 	text-align: center;
 	align-self: center;
@@ -194,7 +207,10 @@ h3{
 	align-self: center;
 	margin-left: auto;
 	margin-right: auto;
-	font-size: 14px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 1.5;
 }
 
 #roadmap span{
@@ -202,7 +218,7 @@ h3{
 }
 
 #roadmap .descripcion p{
-	font-size: 13px;
+	font-size: 12px;
 }
 
 #roadmap-mobile{
@@ -210,7 +226,7 @@ h3{
 }
 
 #about p{
-	font-size: 13px;
+	font-size: 12px;
 	line-height: 1.5;
 }
 #about-mobile{
@@ -220,7 +236,7 @@ h3{
 }
 
 #about h3{
-	font-size: 14px;
+	font-size: 13px;
 }
 
 #servicios{
@@ -250,6 +266,7 @@ h3{
 	text-align: center;
 	color: #fff;
 	line-height: 1.5;
+	font-size: 13px;
 }
 
 #team span{
@@ -272,21 +289,16 @@ h3{
 }
 
 
-.cabecera .container{
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-}
-
 
 .cabecera{
 	width: 100%;
-	padding-bottom: 15px;
-	padding-top: 15px;
+	padding-bottom: 7px;
+	padding-top: 7px;
 	position: fixed;
 	top: 0;
 	left: 0;
 	z-index: 99;
+	background: rgba(0, 0, 0, .5);
 
 }
 
@@ -372,13 +384,12 @@ h3{
 	margin-left: 25px;
 	margin-right: 25px;
 	word-spacing: 0px;
-	letter-spacing: 2px;
 	text-transform: uppercase;
 	color: #fff;
 	transition-property: color;
 	transition-duration: 1s;
 	font-weight: bold;
-
+	font-size: 13px;
 }
 
 .cabecera .menu a:hover{
@@ -400,7 +411,7 @@ h3{
 .circulo{
 	width: 200px;
 	height: 200px;
-	border: 2px solid #48e;
+	border: 2px solid rgb(59,56,179);
 	border-radius: 100px;
 	object-fit: cover;
 	border-radius: 100px;
@@ -432,7 +443,7 @@ h3{
 .parrafo{
 	line-height: 2;
 	color: #fff;
-	font-size: 15px;
+	font-size: 12px;
 }
 
 .caja-texto{
@@ -441,9 +452,9 @@ h3{
 
 .caja-negra{
 	background-color: rgba(0, 0, 0, .5);
-	padding: 30px;
+	padding: 50px 30px;
 	margin-left: -7px;
-	border: 2px solid #48e;
+	border: 2px solid ;
 }
 
 .sin-padding-de-lado{
@@ -480,13 +491,9 @@ h3{
 	
 }
 
-
 .twitter img{
 	width: 60px;
 	height: 60px;
-	
-
-	
 }
 
 .roadmap-introduccion{
@@ -536,7 +543,7 @@ h3{
 	position: absolute;
 	left: 0;
 	right: 0;
-	top: 9%;
+	top: 11%;
 
 }
 
@@ -544,14 +551,14 @@ h3{
 	position: absolute;
 	left: 0;
 	right: 0;
-	top: 5.5%;
+	top: 5.6%;
 }
 
 .texto-absoluto3{
 	position: absolute;
 	left: 0;
 	right: 0;
-	top: 7.5%;
+	top: 8.7%;
 }
 
 .texto-absoluto4{
@@ -565,7 +572,7 @@ h3{
 	position: absolute;
 	left: 0;
 	right: 0;
-	top: 4.9%;
+	top: 5.1%;
 }
 
 
@@ -573,7 +580,7 @@ h3{
 	position: absolute;
 	left: 0;
 	right: 0;
-	top: 9%;
+	top: 9.5%;
 }
 
 .texto-absoluto8{
@@ -660,7 +667,6 @@ h3{
 }
 
 .margin-left{
-	
 	margin-right: auto;
 }
 
@@ -698,9 +704,13 @@ h3{
 		display: none;
 	}
 
-	section#about-mobile{
-		background: linear-gradient(to bottom, rgb(108, 0, 191) , rgb(68, 0, 161));
-	}
+	#introduccion{
+	   display: none;
+   }
+
+   #introduccion-mobile{
+	   display: block;
+   }  
 
 	#banner{
 		height: 100vh;
@@ -740,9 +750,15 @@ h3{
 		top: 2%;
 	}
 
-	#introduccion .parrafo{
+	#introduccion-mobile span{
+	   color: rgb(96, 144, 255);
+   }
+
+	#introduccion-mobile .parrafo{
 		font-size: 12px;
+		color: orange;
 	}
+
 	#about{
 		visibility: hidden;
 		display: none;
