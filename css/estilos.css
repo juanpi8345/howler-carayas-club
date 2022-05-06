@@ -660,7 +660,8 @@ h3{
 }
 
 .margin-left{
-	margin-left: -50px;
+	
+	margin-right: auto;
 }
 
 @media (max-width:  1170px){
