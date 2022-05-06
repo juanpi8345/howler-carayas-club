@@ -54,8 +54,12 @@ section#roadmap-mobile{
 
 section#objetivos{
 	background: linear-gradient(to bottom,rgb(48,0,131) , rgb(08, 0, 85));
-
 }
+
+section#objetivos-mobile{
+	background: linear-gradient(to bottom,rgb(48,0,131) , rgb(08, 0, 85));
+}
+
 
 section#servicios{
 	background: linear-gradient(to bottom,rgb(08, 0, 85) , rgb(0, 0, 61));
@@ -140,6 +144,17 @@ h3{
 	color: orange;
 }
 
+#objetivos{
+	display: block;
+}
+
+#objetivos-mobile{
+	display: none;
+}
+
+#objetivos-mobile .caja-negra{
+	padding: 15px;
+}
 #objetivos span{
 	color: rgb(96, 144, 255);
 }
@@ -816,8 +831,21 @@ h3{
 	   color: rgb(96, 144, 255);
    }
 
-   #objetivos p{
+   #objetivos{
+	   display: none;
+   }
+
+   #objetivos-mobile{
+	   display: block;
+   }
+
+   #objetivos-mobile span {
+       color: rgb(96, 144, 255);
+   } 
+
+   #objetivos-mobile p{
       font-size: 12px;
+      color: orange;
    }
 
    #servicios{
@@ -863,10 +891,6 @@ h3{
 	#team-mobile .fila{
 		justify-content: space-around;
 	}
-
-
-
-
 
 	.container{
 		width: 90%;
