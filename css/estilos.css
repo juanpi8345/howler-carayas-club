@@ -765,6 +765,7 @@ h3{
 
 	.cabecera .menu{
 		display: flex;
+		height:100%
 	}
 
    .cabecera .menu a{
@@ -789,6 +790,7 @@ h3{
 		transition: all 0.4s ease;
 		transform: translateX(100%);
 		justify-content: normal;
+		height: 100%;
 	}
 
 	header .container nav.open {
