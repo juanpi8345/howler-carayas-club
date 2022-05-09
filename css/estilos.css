@@ -438,6 +438,7 @@ h3{
 	transition-duration: 1s;
 	font-weight: bold;
 	font-size: 12px;
+	line-height: 1.5;
 }
 
 .cabecera .menu a:hover{
@@ -724,6 +725,29 @@ h3{
 .margin-left{
 	margin-right: auto;
 }
+.cabecera .menu-pc{
+	display: flex;
+}
+
+.cabecera .menu{
+	display: none;
+}
+
+.cabecera .menu-pc a{
+	margin-left: 25px;
+	margin-right: 25px;
+	word-spacing: 0px;
+	text-transform: uppercase;
+	color: #fff;
+	transition-property: color;
+	transition-duration: 1s;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.cabecera .menu-pc a:hover{
+	color: rgb(96, 144, 255);
+}
 
 @media (max-width:  1170px){
 
@@ -735,9 +759,18 @@ h3{
 		visibility: hidden;
 	}
 
-     .cabecera .menu a{
+	.cabecera .menu-pc{
+		display: none;
+	}
+
+	.cabecera .menu{
+		display: flex;
+	}
+
+   .cabecera .menu a{
 		color: #3b38b3;
 		font-size: 20px;
+
 	}
 
 	header .container nav {
@@ -761,12 +794,14 @@ h3{
 	header .container nav.open {
        transform: translateX(0%);
        background-color: rgba(0,0,0,.7);
-		 height: 100vh;
+       height: 100%;
+
 	}
 
 	header .container nav a{
 		font-size: 30px;
 		margin: 15px 0;
+
 	}
 
 	header .container .hamb{
@@ -818,7 +853,7 @@ h3{
    }  
 
 	#banner{
-		height: 100%;
+		height: 100vh;
 	}
 
 	#banner .img-banner{
@@ -907,19 +942,19 @@ h3{
 
 	}
 
-        #roadmap-mobile .titulo-about{
+	#roadmap-mobile .titulo-about{
 		display: flex;
-                justify-content: center;
+      justify-content: center;
 	}
 
-    #roadmap-mobile .titulo-roadmap{
-       display: flex;
+	#roadmap-mobile .titulo-roadmap{
+		display: flex;
       align-self: center;
 	}
 
-    #roadmap-mobile .parrafo-about{
-	    text-align: center;
-   }
+	#roadmap-mobile .parrafo-about{
+		text-align: center;
+	}
 
    #roadmap-mobile span{
 	   color: rgb(96, 144, 255);
@@ -965,7 +1000,7 @@ h3{
 		border: 5px solid #5800a1;
 		object-fit: contain;
 		transition-property: background;
-	        transition-duration: .4s;
+		transition-duration: .4s;
 	}
 
 	#team-mobile.circulo:hover{
@@ -999,7 +1034,7 @@ h3{
 		position: absolute;
 		left: 0;
 		right: 0;
-		top: 4%;
+		top: 5.5%;
 		text-shadow: 2px 2px 0px #9400dd;
 	}
 
@@ -1007,7 +1042,7 @@ h3{
 		position: absolute;
 		left: 0;
 		right: 0;
-		top: 5.5%;
+		top: 3.7%;
 		text-shadow: 2px 2px 0px #9400dd;
 	}
 
@@ -1015,15 +1050,15 @@ h3{
 		position: absolute;
 		left: 0;
 		right: 0;
-		top: 7.5%;
+		top: 4.4s%;
 		text-shadow: 2px 2px 0px #9400dd;
 	}
 
 	.texto-absoluto4{
 		position: absolute;
-		left: 0;
+		left: 8%;
 		right: 0;
-		top: 16%;
+		top: 8.3%;
 		width: 350px;
 		text-shadow: 2px 2px 0px #9400dd;
 	}
@@ -1032,7 +1067,7 @@ h3{
 		position: absolute;
 		left: 0;
 		right: 0;
-		top: 4.9%;
+		top: 2.5%;
 		text-shadow: 2px 2px 0px #9400dd;
 	}
 
@@ -1041,7 +1076,7 @@ h3{
 		position: absolute;
 		left: 0;
 		right: 0;
-		top: 9%;
+		top: 7.3%;
 		text-shadow: 2px 2px 0px #9400dd;
 	}
 
