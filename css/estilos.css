@@ -121,6 +121,10 @@ h3{
 	color: #fff;
 }
 
+.fas{
+	z-index: 99;
+}
+
 #banner .container{
 	position: absolute;
 	top: 30%;
@@ -129,6 +133,10 @@ h3{
 
 }
 #banner .img-banner-mobile{
+	display: none;
+}
+
+#banner .img-banner-tablet{
 	display: none;
 }
 
@@ -601,7 +609,7 @@ h3{
 	position: absolute;
 	left: 0;
 	right: 0;
-	top: 5.8%;
+	top: 6.2%;
 	text-shadow: 2px 2px 0px #9400dd;
 }
 
@@ -609,7 +617,7 @@ h3{
 	position: absolute;
 	left: 0;
 	right: 0;
-	top: 5.9%;
+	top: 6%;
 	text-shadow: 2px 2px 0px #9400dd;
 }
 
@@ -617,7 +625,7 @@ h3{
 	position: absolute;
 	left: 0;
 	right: 0;
-	top: 16.1%;
+	top: 16.5%;
 	text-shadow: 2px 2px 0px #9400dd;
 }
 
@@ -625,7 +633,7 @@ h3{
 	position: absolute;
 	left: 0;
 	right: 0;
-	top: 5.3%;
+	top: 5.8%;
 	text-shadow: 2px 2px 0px #9400dd;
 }
 
@@ -634,7 +642,7 @@ h3{
 	position: absolute;
 	left: 0;
 	right: 0;
-	top: 9.6%;
+	top: 11%;
 	text-shadow: 2px 2px 0px #9400dd;
 }
 
@@ -749,6 +757,10 @@ h3{
 	color: rgb(96, 144, 255);
 }
 
+.titulo-mobile{
+	display: none;
+}
+
 @media (max-width:  1170px){
 
 	body{
@@ -765,7 +777,6 @@ h3{
 
 	.cabecera .menu{
 		display: flex;
-		height:100%
 	}
 
    .cabecera .menu a{
@@ -773,6 +784,15 @@ h3{
 		font-size: 20px;
 
 	}
+
+	.titulo-mobile{
+	   display: flex;
+	   justify-content: space-between;
+   }
+
+   .titulo-mobile h2{
+	   color:  #48e;
+   }
 
 	header .container nav {
 		position: fixed;
@@ -790,7 +810,6 @@ h3{
 		transition: all 0.4s ease;
 		transform: translateX(100%);
 		justify-content: normal;
-		height: 100%;
 	}
 
 	header .container nav.open {
@@ -854,18 +873,14 @@ h3{
 	   display: block;
    }  
 
-	#banner{
-		height: 100vh;
-	}
-
 	#banner .img-banner{
 		display: none;
 	}
 
-	#banner .img-banner-mobile{
+	#banner .img-banner-tablet{
 		display: block;
 		width: 100%;
-		height: 100%;
+		height: auto;
 	}
 
 	#banner .circulo{
@@ -1036,7 +1051,7 @@ h3{
 		position: absolute;
 		left: 0;
 		right: 0;
-		top: 5.5%;
+		top: 9.2%;
 		text-shadow: 2px 2px 0px #9400dd;
 	}
 
@@ -1044,7 +1059,7 @@ h3{
 		position: absolute;
 		left: 0;
 		right: 0;
-		top: 3.7%;
+		top: 4.2%;
 		text-shadow: 2px 2px 0px #9400dd;
 	}
 
@@ -1052,16 +1067,15 @@ h3{
 		position: absolute;
 		left: 0;
 		right: 0;
-		top: 4.4s%;
+		top: 6%;
 		text-shadow: 2px 2px 0px #9400dd;
 	}
 
 	.texto-absoluto4{
 		position: absolute;
-		left: 8%;
+		left: 0%;
 		right: 0;
-		top: 8.3%;
-		width: 350px;
+		top: 10.2%;
 		text-shadow: 2px 2px 0px #9400dd;
 	}
 
@@ -1069,7 +1083,7 @@ h3{
 		position: absolute;
 		left: 0;
 		right: 0;
-		top: 2.5%;
+		top: 3.2%;
 		text-shadow: 2px 2px 0px #9400dd;
 	}
 
@@ -1078,7 +1092,7 @@ h3{
 		position: absolute;
 		left: 0;
 		right: 0;
-		top: 7.3%;
+		top: 7.4%;
 		text-shadow: 2px 2px 0px #9400dd;
 	}
 
@@ -1089,5 +1103,25 @@ h3{
 		top: 43%;
 		text-shadow: 2px 2px 0px #9400dd;
 	}
+
+}
+@media (max-width:  700px){
+
+	#banner .img-banner{
+		display: none;
+	}
+
+	#banner .img-banner-tablet{
+		display: none;
+	}
+
+	#banner .img-banner-mobile{
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+
+
+
 
 }
