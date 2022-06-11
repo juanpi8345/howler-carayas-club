@@ -925,7 +925,6 @@ h3{
 		display: flex;
 		height: 80px;
 		width: 80px;
-		background: rgb(88, 0, 161);
 		margin-left: 10px;
 		padding-top: 7px;
 
@@ -1045,4 +1044,7 @@ h3{
 	}
 
 }
+
+
+
 
