@@ -602,11 +602,14 @@ h3{
 }
 
 .titulo-about{
-	background-color: rgb(88, 0, 161);
 	color: #fff;
 	font-size: 18px;
 	padding: 0 15px;
 	line-height: 1.5;
+	display: flex;
+	height: 80px;
+	align-self: center;
+	align-items: center;
 }
 
 .parrafo-about{
@@ -615,6 +618,21 @@ h3{
 	color: #fff;
 	font-size: 15px;
 	line-height: 1.5;
+	align-items: center;
+   display: flex;
+   justify-content: center;
+}
+
+.especial-parrafo-about{
+	height: 105px;
+}
+
+.especial-parrafo-about2{
+	height: 88px;
+}
+
+.especial-parrafo-about3{
+	height: 58px;
 }
 
 .margin-top{
@@ -720,6 +738,7 @@ h3{
 
 @media (max-width:  1170px){
 
+
 	body{
 		font-size: 15px;
 	}
@@ -727,6 +746,11 @@ h3{
 	header .cabecera{
 		visibility: hidden;
 	}
+
+	.caja-titulos{
+		height: 46px;
+	}
+
 
 	.cabecera .menu-pc{
 		display: none;
@@ -1021,3 +1045,4 @@ h3{
 	}
 
 }
+
